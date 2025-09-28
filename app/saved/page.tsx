@@ -46,6 +46,7 @@ export default function SavedJobsPage() {
                     <Link href={`/jobs/${job.id}`}>Details</Link>
                   </Button>
                   <Button
+                  className="cursor-pointer"
                     variant="destructive"
                     size="sm"
                     onClick={() => removeJob(job.id)}

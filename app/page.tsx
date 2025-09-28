@@ -62,41 +62,6 @@ export default function HomePage() {
               </Button>
             </div>
           </div>
-
-          {/* Feature Highlights */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16 pt-8 border-t border-border/50">
-            <div className="text-center space-y-3">
-              <div className="w-16 h-16 rounded-lg bg-primary/10 flex items-center justify-center mx-auto">
-                <FcOvertime className="w-8 h-8" />
-              </div>
-              <h3 className="font-semibold text-foreground">
-                Real-time Updates
-              </h3>
-              <p className="text-sm text-muted-foreground">
-                Fresh job listings updated daily from top remote companies
-              </p>
-            </div>
-
-            <div className="text-center space-y-3">
-              <div className="w-16 h-16 rounded-lg bg-primary/10 flex items-center justify-center mx-auto">
-                <FcOrganization className="w-8 h-8" />
-              </div>
-              <h3 className="font-semibold text-foreground">Save & Organize</h3>
-              <p className="text-sm text-muted-foreground">
-                Bookmark your favorite positions and track applications
-              </p>
-            </div>
-
-            <div className="text-center space-y-3">
-              <div className="w-16 h-16 rounded-lg bg-primary/10 flex items-center justify-center mx-auto">
-                <MdOutlineVerifiedUser className="w-8 h-8 text-primary" />
-              </div>
-              <h3 className="font-semibold text-foreground">Quality Assured</h3>
-              <p className="text-sm text-muted-foreground">
-                Curated remote positions from verified companies
-              </p>
-            </div>
-          </div>
         </section>
       </main>
     </div>

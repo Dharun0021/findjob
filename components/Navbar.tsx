@@ -165,12 +165,18 @@ export function SiteNav() {
                   initial={{ opacity: 0, x: -30 }}
                   animate={{ opacity: 1, x: 0 }}
                   transition={{ delay: 0.9, duration: 0.6, ease: "easeOut" }}
-                  className="flex items-center justify-between px-4 py-3"
+                  className="px-4 py-3"
                 >
-                  <span className="navbar-mobile-link font-semibold">
-                    Theme
-                  </span>
-                  <ThemeToggle />
+                  <div className="flex items-center justify-between w-full">
+                    <span className="navbar-mobile-link font-semibold text-base">
+                      Theme
+                    </span>
+                    <div className="flex-1 flex justify-end">
+                      <ThemeToggle
+                        onThemeChange={() => setIsMobileMenuOpen(false)}
+                      />
+                    </div>
+                  </div>
                 </motion.div>
               </motion.div>
             </motion.div>
