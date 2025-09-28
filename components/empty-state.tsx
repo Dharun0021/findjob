@@ -87,4 +87,3 @@ export function EmptyState({ query, onClearSearch }: EmptyStateProps) {
     </div>
   );
 }
-

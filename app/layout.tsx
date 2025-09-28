@@ -13,6 +13,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Job Finder",
   description: "Find your dream job",
+  icons: {
+    icon: "@/public/logo.jpg",
+  },
 };
 
 export default function RootLayout({
